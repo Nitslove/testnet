@@ -172,7 +172,7 @@ function confirm(res,hash){
         status = "Pending";
     }
 
-    res.contentType('application/json');
+    res.contentType('application/json');100
     res.end(JSON.stringify(status));
 }
 
